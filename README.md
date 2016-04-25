@@ -1,11 +1,10 @@
 # ImgurAPIClient
-<h2>Features:</h2><br>
+<h2>This project includes:</h2><br>
 <li> Display the <a href="http://api.imgur.com/endpoints/gallery#gallery" target="_blank">Gallery</a> images in a grid view;
 <li> Display the image description over the image, bottom-aligned or top-aligned;
 <li> Cache images in memory and / or on disk using <a href="https://github.com/rs/SDWebImage" target="_blank">SDWebImage</a>
 <li> Allow selecting the gallery section: hot, top, user;
 <li> Allow including / excluding viral images from the result set;
-<li> Implement an "About" screen containing basic app info (version, build time) and author info (name, email).
 <li> Allow specifying the window and sort parameters;
 <li> When clicking an image in the gallery - shows its details: big image, title, description, upvotes, downvotes and score.
 <h2>How to Implement</h2>
