@@ -32,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    iac = [[ImgurAPIClient alloc] initWithClientId:@"60548c78cdf6b9e" clientSecret:@"1bd2c9ec82ae25e80f2854388ad9421d9adcbe60"];
+    iac = [[ImgurAPIClient alloc] initWithClientId:@"ADD_CLIENT_ID_HERE" clientSecret:@"ADD_CLIENT_SECRET_ID_HERE"];
     iac.delegate = self;
 }
 
