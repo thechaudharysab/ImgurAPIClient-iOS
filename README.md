@@ -1,5 +1,5 @@
 # ImgurAPIClient
-<h2>This project includes:</h2><br>
+<h2>Full Project Includes:</h2><br>
 <li> Display the <a href="http://api.imgur.com/endpoints/gallery#gallery" target="_blank">Gallery</a> images in a grid view;
 <li> Display the image description over the image, bottom-aligned or top-aligned;
 <li> Cache images in memory and / or on disk using <a href="https://github.com/rs/SDWebImage" target="_blank">SDWebImage</a>
@@ -7,7 +7,7 @@
 <li> Allow including / excluding viral images from the result set;
 <li> Allow specifying the window and sort parameters;
 <li> When clicking an image in the gallery - shows its details: big image, title, description, upvotes, downvotes and score.
-<h2>How to Implement</h2>
+<h2>How to Implement API in your project</h2>
 Copy the `ImgurAPIClient.h` & `ImgurAPIClient.m` from the project.<br>
 Create your `ClientID` and `ClientIDSecret` by <a href="https://imgur.com/account/settings/apps" target="_blank">adding a new application here</a>.
 <br>In your `ViewController.h` import `#import "ImgurAPIClient.h"` and add `<apiClientDelegate>` <br>
