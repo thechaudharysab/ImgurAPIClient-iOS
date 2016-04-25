@@ -15,6 +15,6 @@ In your `viewDidLoad` make `ImgurAPIClient *iac = [[ImgurAPIClient alloc] initWi
 <br><br><b>To send a call</b> there are two types of Route as per <a href="http://api.imgur.com/endpoints/gallery#gallery" target="_blank">Gallery</a> defined here:<br>
 For Sort Route: `[iac gallerySection:(NSString *) sort:(NSString *) page:(NSString *) showViral:(NSString *)];`
 For Window Route: `[iac gallerySectionWindow:(NSString *) sort:(NSString *) page:(NSString *) window:(NSString *) showViral:(NSString *)];`
-<br><br><b>To get the fetched data</b> you have to implement this delegate method:<br>
+<br><br><b>To get the fetched data</b> you have to implement this delegate method in your viewcontroller and then use it's parameters to see the data:<br>
 `-(void)finalImageURLs:(NSMutableArray*)array titleIs:(NSMutableArray*)title descriptionIs:(NSMutableArray*)desc upVote:(NSMutableArray*)ups downVote:(NSMutableArray*)downs scoreIs:(NSMutableArray*)score;`
 The array will contain the URL of images other than that everything is clear from the funcion.
